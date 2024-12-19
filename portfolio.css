@@ -1,0 +1,182 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+ul li{
+
+    list-style-type: none;
+}
+
+nav a:hover{
+    background-color: mediumslateblue;
+    padding: 0.5em;
+    color: moccasin;
+    border-radius: 1em;
+    border: 1px dotted orange;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Micro 5";
+    font-weight: 400;
+    font-size: 1.5em;
+    transition-property: padding, background-color, color, border-radius, border;
+    transition-duration: 1s;
+}
+
+nav{
+    padding: 2em;
+    background-color: rgb(36, 33, 37);
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 1.5em;
+}
+
+body{
+    background-color: rgb(50, 101, 113);
+}
+
+main{
+    background-color: rgb(52, 43, 58);
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(190, 241, 255);
+    margin-top: 0.25em;
+    font-size: 5em;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+      
+}
+
+h2{
+    color: aliceblue;
+    font-family: "Bungee Hairline", sans-serif;
+    font-weight: 900;
+    background-color: rgb(50, 101, 113);
+    padding: 1em;
+    text-align: center;
+    font-size: 2em;
+    margin: 1em;
+}
+
+.container{
+    background-color: rgb(48, 45, 50);
+    padding: 1em;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.nudi{
+    margin: 3em;
+    padding: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(190, 241, 255);
+    font-family: "Bungee Hairline", sans-serif;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+}
+
+.nudi1{
+    background-color: mediumaquamarine;
+}
+
+.nudi2{
+    background-color: mediumspringgreen;
+    color: aliceblue;
+}
+
+.nudi3{
+    background-color: mediumseagreen;
+}
+
+.nudi4{
+    background-color: rgb(255, 136, 81);
+    color: lemonchiffon;
+}
+
+.nudi5{
+    background-color: rgb(255, 238, 139);
+    width: 50%;
+    margin: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    display: block;
+}
+
+.nudi6{
+    background-color: lightcoral;
+    color: lemonchiffon;
+    margin: auto;
+    margin-top: 2.5em;
+    width: 75%;
+    display: block;
+    overflow: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 2em;
+    font-size: 1em;
+    background-color: rgb(34, 80, 96);
+    color: aquamarine;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+
+}
+
+img{
+    max-width: 100%;
+    margin-top: 1em;
+    justify-content: center;
+}
+
+.project{
+    transition-property: padding, background-color, color, border-radius, border;
+    transition-duration: 1s;
+    border-radius: 1.5em;
+}
+
+.project a:hover{
+    width: 800px;
+    height: 500px;
+    border: 1em solid mediumslateblue;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+@media(max-width:768px){
+    .nudi5{
+        width: 95%;
+    }
+    .nudi6{
+        width: 95%;
+    }
+}
