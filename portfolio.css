@@ -92,7 +92,7 @@ h2{
     padding: 1.5em;
     font-size: 1.5em;
     text-align: center;
-    color: rgb(190, 241, 255);
+    color: rgb(25, 82, 97);
     font-family: "Bungee Hairline", sans-serif;
     font-weight: 900;
     display: flex;
@@ -108,7 +108,7 @@ h2{
 
 .nudi2{
     background-color: mediumspringgreen;
-    color: aliceblue;
+    color: rgb(42, 99, 95);
 }
 
 .nudi3{
@@ -142,7 +142,7 @@ h2{
 footer{
     text-align: center;
     padding: 2em;
-    font-size: 1em;
+    font-size: 2em;
     background-color: rgb(34, 80, 96);
     color: aquamarine;
     font-family: "Rubik Puddles", system-ui;
